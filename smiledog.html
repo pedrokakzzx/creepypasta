@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Dog</title>
+    <style>
+        body {
+        background-color: #111;
+        color: #eee;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        }
+        .container {
+        max-width: 800px;
+        margin: auto;
+        background: #222;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+        text-align: left;
+        }
+        a {
+        color: #ff0000;
+        text-decoration: none;
+        color: #ff0000;
+        text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 1s forwards;
+        }
+        body {
+        background-color: #111;
+        color: #eee;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        cursor: url('cursor.png'), auto; /* Cursor customizado */
+        overflow-x: hidden; /* Evitar conteúdo ultrapassando a tela */
+        margin: 0;
+        }
+
+        h1 {
+        color: #ff0000;
+        text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+        .creepypasta {
+        background-color: #222;
+        padding: 15px;
+        margin: 10px auto;
+        width: 80%;
+        max-width: 600px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: creepypastaFadeIn 1s forwards;
+        }
+
+        @keyframes creepypastaFadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+        .creepypasta a {
+        color: #ff0000;
+        text-decoration: none;
+        font-size: 1.2rem;
+        }
+
+        .creepypasta a:hover {
+        text-decoration: underline;
+        }
+
+        body::after {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('neblina.png') repeat;
+        opacity: 0.3;
+        pointer-events: none;
+        z-index: -1;
+        }
+
+        footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        }
+
+        footer p {
+        margin: 0;
+        }
+
+        /* Efeitos nos links */
+        a:hover {
+        color: #e67e22;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+        }
+
+        /* Parallax effect */
+        .parallax {
+        background-image: url('floresta_terror.jpg');
+        height: 100vh; /* 100% da altura da tela */
+        width: 100%;
+        background-attachment: fixed;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+        opacity: 0.5;
+        }
+
+        /* Ajustes para telas pequenas */
+        @media (max-width: 768px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .creepypasta {
+            width: 90%;
+        }
+
+        .parallax {
+            height: 60vh; /* Reduzir a altura do parallax para não sobrecarregar em telas pequenas */
+        }
+        }
+        /* Estilizando a barra de rolagem */
+        ::-webkit-scrollbar {
+            width: 10px; /* Largura da barra de rolagem */
+            height: 10px; /* Altura da barra de rolagem horizontal */
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #222; /* Cor do trilho (parte de fundo da barra de rolagem) */
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #ff0000; /* Cor da parte que é rolada */
+            border-radius: 10px;
+            border: 2px solid #444; /* Borda ao redor do "thumb" para destacar */
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #e67e22; /* Cor ao passar o mouse sobre o thumb */
+        }
+
+        ::-webkit-scrollbar-corner {
+            background-color: #222; /* Cor do canto da barra de rolagem (se houver) */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Smile Dog</h1>
+        <p>Quando Juliana recebeu o e-mail, não achou nada de mais. Era uma mensagem simples, com um arquivo anexo, um documento de imagem. O assunto era direto: “Você vai gostar disso”.</p>
+
+        <p>Ela estava acostumada a receber e-mails estranhos, principalmente por causa de seu trabalho como jornalista. Muitas vezes, as pessoas enviavam histórias ou fotos bizarras para ela investigar. Então, sem pensar muito, ela abriu o anexo.</p>
+
+        <p>O que ela viu fez seu sangue gelar. Era uma foto de um cachorro sorrindo de forma sinistra, seus dentes afiados em uma expressão grotesca que parecia um sorriso, mas que estava longe de ser amigável. A imagem era de uma qualidade impressionante, mas algo na cena parecia fora do lugar. O cachorro olhava diretamente para a câmera, ou melhor, para ela. Seu olhar penetrante a fez sentir um desconforto inexplicável.</p>
+
+        <p>Juliana tentou se afastar da tela, mas algo a impedia. Seus olhos ficaram fixos na imagem, como se estivessem hipnotizados. Ela tentou apagar o e-mail, mas o botão “excluir” não respondia. A cada segundo que passava, a sensação de que estava sendo observada aumentava.</p>
+
+        <p>Logo depois, as coisas começaram a acontecer. As luzes de sua casa começaram a piscar. O telefone tocava, mas ao atender, ninguém estava na linha. Um vento gelado começou a se espalhar pelo apartamento, como se alguém estivesse lá, mas ela estava sozinha.</p>
+
+        <p>A princípio, Juliana pensou que fosse apenas uma coincidência. Talvez fosse o stress do trabalho ou algum problema com a eletricidade. Mas tudo piorou na noite seguinte. Ela acordou no meio da madrugada com um barulho vindo da sala. Algo se arrastava pelo chão, algo pesado. Quando olhou pela fresta da porta, viu o contorno de uma figura estranha. Era uma silhueta canina, com olhos brilhantes, observando-a do lado de fora.</p>
+
+        <p>Juliana não conseguiu gritar. Seu corpo estava paralisado de medo. Quando ela fechou os olhos e os abriu novamente, a figura desapareceu. No entanto, o medo persistia, como se a presença estivesse ali, esperando.</p>
+
+        <p>Durante os dias seguintes, ela passou a se sentir cada vez mais observada. Às vezes, ouvia passos ao seu redor, mas ao olhar, não havia ninguém. O sorriso do cachorro parecia estar em toda parte: em reflexos, em fotos, em lugares inesperados.</p>
+
+        <p>O pesadelo de Juliana se intensificou quando ela começou a receber mais e-mails. O remetente era sempre o mesmo: “smiledog@darkmail.com”. O assunto era o mesmo: “Você vai gostar disso”. E o anexo sempre trazia a mesma foto do cachorro sorridente. Ela tentou ignorar, mas a sensação de que não podia escapar aumentava.</p>
+
+        <p>Com o tempo, Juliana ficou obcecada por essa imagem. Ela não podia entender por que não conseguia se livrar da foto, por que o sorriso do cachorro estava sempre em sua mente. Quando ela fechava os olhos, ele estava lá, sorrindo para ela. Ela não sabia mais o que era real. Se ela estava acordada ou se aquilo tudo era um pesadelo interminável.</p>
+
+        <p>Mas o que Juliana não sabia era que esse sorriso macabro tinha um preço. Aqueles que viam a foto estavam amaldiçoados. O cachorro, o Smile Dog, não era apenas uma imagem. Ele era uma entidade maligna, que se alimentava do medo das pessoas e, uma vez que elas o viam, ele as perseguia até que elas se tornassem uma parte de sua presença maligna.</p>
+
+        <p>Juliana passou a ver o sorriso do cachorro em todos os lugares. Na rua, nas vitrines, nas sombras. Mas o pior estava por vir. Ela começou a ver o cachorro nas esquinas, em ruas desertas. Ele estava lá, esperando, com seu sorriso grotesco.</p>
+
+        <p>Em uma noite particularmente fria, Juliana não conseguiu mais resistir. Ela pegou a faca da cozinha e se preparou para dar um fim a sua angústia. Mas quando olhou no espelho, lá estava ele, o cachorro. Ele não estava mais na foto, mas em carne e osso, com seus dentes afiados e um sorriso maligno que parecia dizer: “Você pertence a mim agora.”</p>
+
+        <p>Juliana caiu no chão, em um estado de pânico absoluto. Ela percebeu que havia chegado ao ponto sem volta. O sorriso do cachorro estava em sua mente, em sua vida, em seu corpo. Ela não podia escapar. Ela estava condenada.</p>
+
+        <p>Na manhã seguinte, sua amiga Carla foi à sua casa, preocupada, já que Juliana não atendia as ligações. Ao entrar no apartamento, ela encontrou Juliana, imóvel e com um sorriso bizarro no rosto. Aparentemente, ela estava em transe, sem conseguir reagir a nada. Quando Carla tentou ajudar, uma sensação gélida a envolveu. Ela sentiu uma presença, e ao olhar para o reflexo da janela, viu o rosto do cachorro sorrindo para ela.</p>
+
+        <p>Na mesma noite, Carla recebeu um e-mail. O assunto era o mesmo: “Você vai gostar disso.” E o anexo continha a foto de um cachorro sorrindo. Não havia mais escapatória. Ela estava presa na mesma maldição que Juliana. O sorriso do cachorro estava agora em sua vida também.</p>
+
+        <p>O ciclo continuou, passando de uma pessoa para outra, com a entidade Smile Dog sempre à espreita, aguardando a próxima vítima. Aqueles que viam a foto, mesmo sem querer, eram amaldiçoados, e logo sua vida se transformava em um pesadelo.</p>
+
+        <p>Agora, quem encontrar o e-mail nunca poderá escapar do sorriso macabro. A única forma de interromper o ciclo é repassar a imagem, enviando-a a outro, para que ele assuma a maldição e se torne a próxima vítima. Mas poucos são capazes de fazer isso, e a maldição continua se espalhando.</p>
+
+        <a href="main.html">Voltar</a>
+    </div>
+</body>
+</html>

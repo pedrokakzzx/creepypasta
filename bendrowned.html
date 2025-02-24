@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Drowned</title>
+    <style>
+        body {
+        background-color: #111;
+        color: #eee;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        }
+        .container {
+        max-width: 800px;
+        margin: auto;
+        background: #222;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+        text-align: left;
+        }
+        a {
+        color: #ff0000;
+        text-decoration: none;
+        color: #ff0000;
+        text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 1s forwards;
+        }
+        body {
+        background-color: #111;
+        color: #eee;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        cursor: url('cursor.png'), auto; /* Cursor customizado */
+        overflow-x: hidden; /* Evitar conteúdo ultrapassando a tela */
+        margin: 0;
+        }
+
+        h1 {
+        color: #ff0000;
+        text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+        .creepypasta {
+        background-color: #222;
+        padding: 15px;
+        margin: 10px auto;
+        width: 80%;
+        max-width: 600px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: creepypastaFadeIn 1s forwards;
+        }
+
+        @keyframes creepypastaFadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+        .creepypasta a {
+        color: #ff0000;
+        text-decoration: none;
+        font-size: 1.2rem;
+        }
+
+        .creepypasta a:hover {
+        text-decoration: underline;
+        }
+
+        body::after {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('neblina.png') repeat;
+        opacity: 0.3;
+        pointer-events: none;
+        z-index: -1;
+        }
+
+        footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        }
+
+        footer p {
+        margin: 0;
+        }
+
+        /* Efeitos nos links */
+        a:hover {
+        color: #e67e22;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+        }
+
+        /* Parallax effect */
+        .parallax {
+        background-image: url('floresta_terror.jpg');
+        height: 100vh; /* 100% da altura da tela */
+        width: 100%;
+        background-attachment: fixed;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+        opacity: 0.5;
+        }
+
+        /* Ajustes para telas pequenas */
+        @media (max-width: 768px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .creepypasta {
+            width: 90%;
+        }
+
+        .parallax {
+            height: 60vh; /* Reduzir a altura do parallax para não sobrecarregar em telas pequenas */
+        }
+        }
+        /* Estilizando a barra de rolagem */
+        ::-webkit-scrollbar {
+            width: 10px; /* Largura da barra de rolagem */
+            height: 10px; /* Altura da barra de rolagem horizontal */
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #222; /* Cor do trilho (parte de fundo da barra de rolagem) */
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #ff0000; /* Cor da parte que é rolada */
+            border-radius: 10px;
+            border: 2px solid #444; /* Borda ao redor do "thumb" para destacar */
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #e67e22; /* Cor ao passar o mouse sobre o thumb */
+        }
+
+        ::-webkit-scrollbar-corner {
+            background-color: #222; /* Cor do canto da barra de rolagem (se houver) */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ben Drowned</h1>
+        <p>Era uma tarde de sábado quando Lucas comprou um cartucho antigo de *The Legend of Zelda: Majora’s Mask* em uma loja de jogos usados. O vendedor, um homem de aparência estranha, olhou para ele com um olhar vazio, como se soubesse de algo que Lucas não sabia. Sem pensar muito, ele levou o cartucho para casa e o colocou no console.</p>
+        
+        <p>Ao começar a jogar, Lucas percebeu algo estranho logo de cara. A tela, que deveria estar cheia de cores vibrantes, parecia ligeiramente apagada, como se o jogo tivesse algo de errado. Mas ele ignorou isso e continuou, até que chegou ao ponto onde o jogo deveria começar de fato.</p>
+        
+        <p>Mas o que aconteceu depois foi o que fez Lucas perceber que havia algo muito errado. O jogo começou a apresentar bugs: personagens com rostos distorcidos, sons estranhos e um clima denso, como se o próprio jogo estivesse se distorcendo ao redor dele. Ele tentou desligar o console, mas a tela continuava ligada, e o jogo não parava.</p>
+        
+        <p>Em um momento, o personagem principal, Link, foi confrontado por um estranho garoto com um sorriso sinistro. Ele parecia ser uma versão distorcida do Ben, um garoto que havia morrido em circunstâncias misteriosas na cidade onde Lucas morava. A coisa mais estranha foi que esse "Ben" parecia estar falando diretamente com ele, não apenas no jogo, mas dentro de sua mente.</p>
+        
+        <p>“Você não deveria ter jogado este jogo”, disse a voz. “Agora, você está preso aqui comigo.” A voz era fria, distante, e cheia de ódio. Lucas congelou, o controle escorregou de suas mãos. Algo estava muito errado. Mas ele não sabia o que fazer.</p>
+        
+        <p>Os eventos começaram a se tornar cada vez mais perturbadores. O rosto de Ben apareceu em diferentes partes do jogo, observando Link de longe, como se estivesse vigiando Lucas. Era como se o garoto estivesse se comunicando com ele, como se estivesse pedindo algo.</p>
+        
+        <p>De repente, a tela piscou e a música do jogo parou, substituída por um som de água correndo. Quando Lucas olhou para o jogo, a tela mostrava uma cena que não deveria estar ali. A água cobria a tela, e Link estava submerso, lutando para respirar. O jogo estava vivo de uma forma que Lucas não conseguia entender.</p>
+        
+        <p>Ele tentou pausar o jogo, mas não conseguiu. Tudo o que podia fazer era assistir enquanto o personagem de Link se afogava, o rosto distorcido de Ben aparecendo em cada pedaço de água. As palavras de Ben ecoaram em sua mente: “Você não deveria ter vindo. Agora, você está comigo.”</p>
+        
+        <p>As coisas pioraram quando Lucas começou a perceber que, fora do jogo, sua vida estava começando a se desintegrar. À noite, ele ouvia passos no corredor, mas quando olhava, não havia ninguém. Seu espelho refletia algo que ele não podia ver. Havia uma presença em sua casa, algo que não deveria estar ali.</p>
+        
+        <p>Cada noite, mais coisas estranhas aconteciam. Ele começou a ter pesadelos com o garoto de rosto distorcido, sempre sorrindo. O sorriso era horrível, uma expressão de puro mal. Ben parecia estar se tornando cada vez mais real, e a linha entre o jogo e a realidade estava se desfazendo.</p>
+        
+        <p>Certa noite, Lucas acordou no meio da madrugada, ouvindo um som baixo vindo de sua televisão. Ele se levantou, hesitante, e olhou para o console. A tela estava ligada novamente. O jogo estava em andamento, e ele podia ver o garoto com o sorriso distorcido encarando-o diretamente. “Você me invocou. Agora, você não pode escapar.”</p>
+        
+        <p>O medo se apoderou de Lucas. Ele tentou novamente desligar a televisão, mas nada funcionava. Ele estava preso, e sentia a presença de Ben observando-o, sempre mais perto. Ele não sabia se o que estava acontecendo era real ou se estava ficando louco, mas uma coisa ele sabia: algo estava em sua casa, algo que veio do jogo.</p>
+        
+        <p>Nos dias seguintes, Lucas começou a se sentir cada vez mais isolado. Seus amigos não o reconheciam mais, e ele começava a ver a sombra do garoto com o sorriso distorcido se movendo em seu periférico. Quando ele fechava os olhos, ele via a imagem do rosto de Ben, rindo para ele. A ideia de que Ben estava dentro de sua mente o aterrorizava mais do que qualquer coisa.</p>
+        
+        <p>Foi quando ele encontrou o diário de um garoto chamado Ben, perdido em um dos cantos da cidade. O diário estava cheio de anotações estranhas, mas o que mais lhe chamou a atenção foi a última frase escrita: “Se você encontrar o cartucho, saiba que Ben nunca vai deixar você escapar.”</p>
+        
+        <p>Com isso, Lucas percebeu que ele não estava apenas jogando um jogo. Ele estava sendo manipulado, atraído para uma prisão digital. Ele estava agora conectado à entidade de Ben, e a única maneira de escapar era descobrir o segredo por trás de sua morte.</p>
+        
+        <p>Mas quando ele tentou buscar mais informações, sua busca apenas o levou mais fundo na loucura. Ele descobriu que o Ben que ele via no jogo não era apenas um fantasma digital, mas a alma de um garoto que morreu, vítima de uma tragédia. O espírito de Ben estava preso no cartucho, e agora, ele estava preso com Lucas também.</p>
+        
+        <p>Nos dias seguintes, Lucas começou a perder o controle de sua própria vida. Ele via Ben em todas as partes. No espelho, nas sombras, até nas ruas vazias. O jogo estava se espalhando para o mundo real, e Lucas não sabia mais o que era real. A única coisa que sabia era que Ben estava perto, sempre observando, sempre esperando.</p>
+        
+        <p>A última coisa que Lucas escreveu antes de desaparecer foi uma mensagem: “Eu tentei escapar, mas o jogo não vai me deixar. Ele está vindo para você também. Você foi avisado.” E então, como um estalo, ele sumiu.</p>
+        
+        <p>Agora, o cartucho de Zelda está em mãos erradas novamente. E quem o jogar, pode encontrar não só o jogo, mas também o espírito de Ben, que nunca descansará até ter companhia para sempre.</p>
+        
+        <a href="main.html">Voltar</a>
+    </div>
+</body>
+</html>

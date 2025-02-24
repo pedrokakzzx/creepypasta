@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeff the Killer</title>
+    <style>
+        body {
+        background-color: #111;
+        color: #eee;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        }
+        .container {
+        max-width: 800px;
+        margin: auto;
+        background: #222;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+        text-align: left;
+        }
+        a {
+        color: #ff0000;
+        text-decoration: none;
+        color: #ff0000;
+        text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 1s forwards;
+        }
+        body {
+        background-color: #111;
+        color: #eee;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        cursor: url('cursor.png'), auto; /* Cursor customizado */
+        overflow-x: hidden; /* Evitar conteúdo ultrapassando a tela */
+        margin: 0;
+        }
+
+        h1 {
+        color: #ff0000;
+        text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+        .creepypasta {
+        background-color: #222;
+        padding: 15px;
+        margin: 10px auto;
+        width: 80%;
+        max-width: 600px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: creepypastaFadeIn 1s forwards;
+        }
+
+        @keyframes creepypastaFadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+        .creepypasta a {
+        color: #ff0000;
+        text-decoration: none;
+        font-size: 1.2rem;
+        }
+
+        .creepypasta a:hover {
+        text-decoration: underline;
+        }
+
+        body::after {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('neblina.png') repeat;
+        opacity: 0.3;
+        pointer-events: none;
+        z-index: -1;
+        }
+
+        footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        }
+
+        footer p {
+        margin: 0;
+        }
+
+        /* Efeitos nos links */
+        a:hover {
+        color: #e67e22;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+        }
+
+        /* Parallax effect */
+        .parallax {
+        background-image: url('floresta_terror.jpg');
+        height: 100vh; /* 100% da altura da tela */
+        width: 100%;
+        background-attachment: fixed;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+        opacity: 0.5;
+        }
+
+        /* Ajustes para telas pequenas */
+        @media (max-width: 768px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .creepypasta {
+            width: 90%;
+        }
+
+        .parallax {
+            height: 60vh; /* Reduzir a altura do parallax para não sobrecarregar em telas pequenas */
+        }
+        }
+        /* Estilizando a barra de rolagem */
+        ::-webkit-scrollbar {
+            width: 10px; /* Largura da barra de rolagem */
+            height: 10px; /* Altura da barra de rolagem horizontal */
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #222; /* Cor do trilho (parte de fundo da barra de rolagem) */
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #ff0000; /* Cor da parte que é rolada */
+            border-radius: 10px;
+            border: 2px solid #444; /* Borda ao redor do "thumb" para destacar */
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #e67e22; /* Cor ao passar o mouse sobre o thumb */
+        }
+
+        ::-webkit-scrollbar-corner {
+            background-color: #222; /* Cor do canto da barra de rolagem (se houver) */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jeff the Killer</h1>
+        <p>Jeff era apenas um garoto comum, com uma vida simples e uma infância tranquila. Mas tudo mudou quando ele e sua família se mudaram para uma nova cidade, longe de seus amigos e tudo o que ele conhecia. Seus pais estavam sempre ocupados, e Jeff passou a viver mais no mundo da imaginação, criando suas próprias histórias e escapando da solidão que o cercava.</p>
+        
+        <p>Ele nunca imaginou que a verdadeira história que viveria seria mais sombria do que qualquer conto que ele pudesse criar. Na escola, Jeff se tornou alvo de bullying. As crianças zombavam dele, fazendo piadas sobre sua aparência e a maneira como ele se vestia. A crueldade deles foi piorando, até o ponto em que Jeff não conseguia mais suportar.</p>
+        
+        <p>Em um dia particularmente ruim, depois de ser mais uma vez humilhado, Jeff teve uma ideia sombria. Ele se retirou do grupo de amigos, indo para um lugar isolado perto da floresta, onde poderia pensar sozinho. Foi nesse momento que algo estranho aconteceu. Ele sentiu uma presença, como se estivesse sendo observado.</p>
+        
+        <p>Quando olhou para trás, viu uma figura alta e esquelética. Um homem, sem rosto, vestindo um terno preto. Sua postura rígida e inumana lhe dava uma sensação de desconforto instantânea. Ele não conseguia entender o que estava vendo, mas sabia que não era uma visão comum. Ele virou-se rapidamente e correu para casa, tentando ignorar a sensação de que algo estava errado.</p>
+        
+        <p>Nos dias seguintes, Jeff não conseguia tirar a imagem daquela figura da cabeça. Quem era aquele homem? O que ele queria com ele? O medo começou a tomar conta de sua mente. Ele se sentia paralisado, como se estivesse sendo caçado, mas ninguém mais parecia perceber nada estranho. Então, uma noite, enquanto tentava descansar, algo o despertou no meio do sono.</p>
+        
+        <p>Ele acordou com um som distante, como se algo estivesse batendo na janela de seu quarto. Ao olhar para fora, viu uma silhueta à distância, uma sombra alta e irreconhecível, com os braços longos e desproporcionais, e um sorriso que parecia esticar além do que seria possível para um ser humano. Seus olhos estavam escuros como breu, sem pupilas, apenas um vazio.</p>
+        
+        <p>O pavor tomou conta de Jeff. Ele tentou se esconder debaixo das cobertas, mas a sensação de ser observado não desapareceu. A cada noite, a figura se aproximava mais. Quando ele tentou contar a seus pais sobre o que estava acontecendo, eles não acreditaram. Jeff estava começando a perder a sanidade. Cada vez mais ele sentia que estava sendo perseguido, e não havia ninguém para ajudá-lo.</p>
+        
+        <p>Foi então que a transformação começou. Jeff já não era mais o mesmo garoto. Ele passou a se isolar, a se afastar de tudo e todos. Seus olhos começaram a ficar mais profundos, como se a escuridão tivesse se apoderado dele. Seu rosto, outrora comum, começou a mudar de maneira irreconhecível. Um sorriso macabro apareceu, começando com uma simples expressão de desespero e se tornando cada vez maior, mais grotesco. Seu olhar, antes tímido, agora transmitia um vazio assustador.</p>
+        
+        <p>O sorriso não se fechava. Ele parecia se expandir com o tempo, até se tornar algo demoníaco. Ele não conseguia mais se controlar. Sua mente estava sendo corroída pela dor e pela raiva. Jeff se transformou em algo irreconhecível, uma figura horrível que vagava pelas ruas, à procura de suas vítimas.</p>
+        
+        <p>Um dia, ele encontrou um grupo de jovens em uma festa na rua. Eles estavam se divertindo, rindo e ignorando o que estava acontecendo ao redor. Jeff os observou por um tempo, até que não conseguiu mais resistir ao impulso. Ele se aproximou silenciosamente, com sua faca em mãos. O sorriso que antes era um reflexo de dor agora era uma arma, uma expressão de pura malícia.</p>
+        
+        <p>Com um golpe rápido, ele atacou o primeiro jovem, e logo depois os outros, um a um, sem hesitar. Ninguém teve chance de reagir. Jeff havia se tornado um monstro, um assassino implacável, alimentado pela raiva e pela escuridão dentro de si. O massacre foi brutal, mas Jeff parecia não sentir nada. Ele apenas sorria, seu rosto deformado por uma alegria macabra que não era mais humana.</p>
+        
+        <p>A polícia nunca encontrou Jeff. Ele desapareceu na noite, deixando para trás apenas os corpos de suas vítimas e o eco de seu sorriso aterrador. Mas os relatos sobre ele não desapareceram. As lendas começaram a se espalhar, e as pessoas começaram a temer sua existência.</p>
+        
+        <p>As testemunhas que afirmam tê-lo visto falam de uma criatura alta, com pele pálida e olhos vazios, sempre sorrindo, sempre em silêncio, mas sempre presente, como uma sombra que nunca se vai. E dizem que, se você olhar diretamente para seus olhos, você nunca mais será o mesmo.</p>
+        
+        <p>Hoje, ninguém sabe onde Jeff está, mas as histórias sobre ele continuam. Dizem que ele sempre aparece à noite, em busca de novas vítimas. E que se você ouvir seu nome, ele pode estar mais perto do que você imagina. O sorriso macabro de Jeff the Killer está sempre à espreita, esperando a próxima alma a ser corrompida.</p>
+        
+        <p>Se você vê-lo, corra. Se você ouve falar dele, evite a noite. E se você ouvir seu nome sussurrado na escuridão, saiba que a morte é a única coisa que pode vir a seguir.</p>
+        
+        <a href="main.html">Voltar</a>
+    </div>
+</body>
+</html>

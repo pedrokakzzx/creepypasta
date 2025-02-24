@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slender Man</title>
+    <style>
+        body {
+        background-color: #111;
+        color: #eee;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        }
+        .container {
+        max-width: 800px;
+        margin: auto;
+        background: #222;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+        text-align: left;
+        }
+        a {
+        color: #ff0000;
+        text-decoration: none;
+        color: #ff0000;
+        text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 1s forwards;
+        }
+        body {
+        background-color: #111;
+        color: #eee;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        cursor: url('cursor.png'), auto; /* Cursor customizado */
+        overflow-x: hidden; /* Evitar conteúdo ultrapassando a tela */
+        margin: 0;
+        }
+
+        h1 {
+        color: #ff0000;
+        text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+        .creepypasta {
+        background-color: #222;
+        padding: 15px;
+        margin: 10px auto;
+        width: 80%;
+        max-width: 600px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: creepypastaFadeIn 1s forwards;
+        }
+
+        @keyframes creepypastaFadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+        .creepypasta a {
+        color: #ff0000;
+        text-decoration: none;
+        font-size: 1.2rem;
+        }
+
+        .creepypasta a:hover {
+        text-decoration: underline;
+        }
+
+        body::after {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('neblina.png') repeat;
+        opacity: 0.3;
+        pointer-events: none;
+        z-index: -1;
+        }
+
+        footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        }
+
+        footer p {
+        margin: 0;
+        }
+
+        /* Efeitos nos links */
+        a:hover {
+        color: #e67e22;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+        }
+
+        /* Parallax effect */
+        .parallax {
+        background-image: url('floresta_terror.jpg');
+        height: 100vh; /* 100% da altura da tela */
+        width: 100%;
+        background-attachment: fixed;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+        opacity: 0.5;
+        }
+
+        /* Ajustes para telas pequenas */
+        @media (max-width: 768px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .creepypasta {
+            width: 90%;
+        }
+
+        .parallax {
+            height: 60vh; /* Reduzir a altura do parallax para não sobrecarregar em telas pequenas */
+        }
+        }
+        /* Estilizando a barra de rolagem */
+        ::-webkit-scrollbar {
+            width: 10px; /* Largura da barra de rolagem */
+            height: 10px; /* Altura da barra de rolagem horizontal */
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #222; /* Cor do trilho (parte de fundo da barra de rolagem) */
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #ff0000; /* Cor da parte que é rolada */
+            border-radius: 10px;
+            border: 2px solid #444; /* Borda ao redor do "thumb" para destacar */
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #e67e22; /* Cor ao passar o mouse sobre o thumb */
+        }
+
+        ::-webkit-scrollbar-corner {
+            background-color: #222; /* Cor do canto da barra de rolagem (se houver) */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Slender Man</h1>
+        <p>Desde criança, Lucas escutava as histórias sobre o Slender Man. Seus avós falavam sobre uma entidade alta, esquelética, sem rosto, vestindo um terno preto. A lenda dizia que ele persegue e sequestra pessoas, principalmente crianças, levando-as para um destino incerto na floresta. Ele nunca deu ouvidos, achava que eram apenas histórias inventadas para assustar os pequenos. Mas naquela noite, tudo mudaria.</p>
+        
+        <p>Lucas e seus amigos estavam explorando a floresta ao redor da cidade, como sempre faziam nos fins de semana. Eles se divertiam com os jogos e risadas, ignorando a lenda que envolvia aquele lugar. Mas ao cair da noite, as árvores começaram a parecer mais sombrias, e o vento gelado trazia um arrepio desconfortante no ar. De repente, o clima mudou. A energia da floresta parecia diferente. Como se algo estivesse observando.</p>
+        
+        <p>Após montarem as barracas e acenderem uma fogueira, Lucas se sentiu desconfortável. O som dos grilos e o farfalhar das folhas na brisa pareciam mais intensos, como se algo estivesse se aproximando. A conversa mudou de tom quando o nome "Slender Man" foi mencionado. Instantaneamente, todos ficaram em silêncio, o ar pesado e tenso. Algo parecia estranho.</p>
+        
+        <p>“Isso é besteira”, disse Lucas, tentando descontrair, jogando um galho na fogueira. Mas logo após essas palavras, um vento gelado passou por eles. As chamas da fogueira tremularam violentamente, como se estivessem sendo empurradas por uma força invisível. “Vocês sentiram isso?”, perguntou Ana, com a voz trêmula. Ela olhou ao redor, tentando entender o que estava acontecendo.</p>
+        
+        <p>Todos olharam para ela, mas logo tentaram disfarçar o nervosismo. “Nada de mais, deve ser só o vento”, disse Daniel, tentando manter a calma. Mas o silêncio desconfortante permaneceu. A presença na floresta estava mais forte, como se algo os estivesse observando, esperando o momento certo para agir.</p>
+        
+        <p>Horas se passaram. O grupo estava começando a relaxar novamente, até que Daniel, o mais novo do grupo, apontou para a borda da clareira. “Tem alguém ali”, disse ele, sua voz carregada de medo. Todos olharam na direção indicada. Entre as árvores, uma figura alta e magra, sem rosto, vestindo um terno preto, estava parada observando-os. Sua silhueta era indistinta, como se fosse uma sombra viva. Mas ninguém queria acreditar no que viam.</p>
+        
+        <p>“É só uma árvore”, disse Lucas, tentando manter a racionalidade. Mas sua voz falhou. Seus olhos estavam fixos na figura. Ele tentou se convencer de que era apenas uma ilusão, mas o desconforto no ar era palpável. A presença deles estava ficando mais forte a cada segundo.</p>
+        
+        <p>À medida que a noite avançava, o medo tomou conta do grupo. O zumbido na cabeça de Lucas aumentava e as sombras ao redor pareciam ganhar vida própria. Ele sentiu uma pressão nos ombros, como se o ar estivesse ficando mais denso. Seus amigos estavam começando a ficar paranóicos, com olhares nervosos, cada um tentando controlar o pânico.</p>
+        
+        <p>“Acho que estamos sendo seguidos”, disse Ana, com a voz trêmula. Ela olhou para todos os lados, como se procurasse uma explicação racional. Mas não havia nada ali que fizesse sentido. O silêncio foi quebrado novamente, desta vez por um som baixo e sibilante, vindo das profundezas da floresta. Algo estava se movendo entre as árvores. Algo grande, algo que não deveria estar ali.</p>
+        
+        <p>Lucas sabia que não deveria continuar ali. O medo o estava dominando. Ele precisava sair da floresta antes que fosse tarde demais. Mas o que ele não sabia era que já estava preso na teia do Slender Man. O homem alto e sem rosto estava se aproximando mais e mais. Sua silhueta tomava forma, e os braços longos e desproporcionais pareciam se estender na direção deles.</p>
+        
+        <p>“Precisamos ir embora, agora!” disse Lucas, começando a correr. Mas quando ele tentou levantar, seus pés estavam presos ao chão, como se uma força invisível o mantivesse ali. Seus amigos estavam paralisados de medo, sem conseguir se mover. O ar estava denso, e a presença do Slender Man era avassaladora.</p>
+        
+        <p>O que aconteceu a seguir foi um borrão de sombras e gritos. O Slender Man se aproximou de Lucas, e ele sentiu uma dor lancinante atravessar seu corpo. Era como se sua alma estivesse sendo arrastada para um lugar onde o tempo e o espaço não existiam mais. O zumbido em sua cabeça se intensificou e, antes que ele pudesse fazer qualquer coisa, suas pernas não o obedeceram mais.</p>
+        
+        <p>Ele caiu de joelhos, sem forças, enquanto a figura se aproximava lentamente. Seus braços, impossivelmente longos, se estenderam em sua direção, como se fossem feitos de pura escuridão. Lucas tentou gritar, mas sua voz foi engolida pelo silêncio da floresta. Ele estava sozinho, com o Slender Man.</p>
+        
+        <p>Na manhã seguinte, as autoridades encontraram as barracas vazias, com os itens espalhados por todo lado. A única pista deixada para trás era uma câmera caída no chão, gravando o vazio. As imagens mostravam o campo vazio, exceto pela silhueta de uma figura alta e sem rosto observando ao longe. Lucas e seus amigos nunca mais foram vistos.</p>
+        
+        <p>A lenda do Slender Man continua a ser contada, passada de geração em geração. Alguns dizem que ele pode ser invocado se você chamar seu nome à noite. Outros afirmam que ele pode ouvir seus pensamentos, se você estiver em sua presença. O que é certo, é que a entidade está sempre à espreita, à espera de sua próxima vítima.</p>
+        
+        <p>Se você sentir uma presença estranha ao seu redor, se o ar parecer mais pesado, se as sombras parecerem ganhar vida, talvez seja tarde demais. O Slender Man está perto, e ele sempre vai atrás dos que o invocam. Ele é mais do que uma lenda. Ele é real.</p>
+        
+        <p>E se você ouvir o som do vento, e perceber que está sozinho, lembre-se: não olhe para trás. O Slender Man pode estar te observando, esperando o momento perfeito para te levar para a floresta, onde ninguém jamais vai te encontrar.</p>
+        
+        <a href="main.html">Voltar</a>
+    </div>
+</body>
+</html>
